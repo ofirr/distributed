@@ -19,7 +19,7 @@ def test_compression():
     assert x.tobytes() == y
 
 
-def test_compression():
+def test_compression2():
     pytest.importorskip('lz4')
     np = pytest.importorskip('numpy')
     x = np.random.random(10000)
